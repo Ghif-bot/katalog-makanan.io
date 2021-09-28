@@ -1,0 +1,122 @@
+body {
+    color: #666666;
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0 px;
+    padding: 0px;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    display: block;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    float: right;
+    list-style-type: none;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li {
+    float: right;
+    padding: auto;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+p {
+    color: rgb(5, 5, 5);
+    word-spacing: normal;
+    font-size: 15px;
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: greenyellow;
+    color: black;
+    min-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    float: left;
+    font-size: 30px;
+    padding: auto;
+}
+
+section {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-bottom: 3px solid beige;
+    padding: 30px;
+}
+
+.makanan img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.res {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.res h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.res h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    background: #152d35;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #000000;
+}
